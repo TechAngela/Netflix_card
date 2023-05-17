@@ -1,0 +1,27 @@
+.rect{
+     height: 35vh;
+     width: 27vw;
+     border-radius: 10px;
+     margin-left: 30px;
+    
+}
+.txt{
+     
+     /* margin-bottom: -80px; */
+     margin-left: 50px;
+     margin-top: -90px;
+     color: aliceblue;
+
+}
+.parent{
+     position: relative;
+}
+.icon{
+     background-color: transparent;
+     position:absolute;
+     top: 0;
+     right: 0;
+     margin-right: 10px; 
+}
+
+

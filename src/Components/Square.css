@@ -1,0 +1,26 @@
+ .ico{
+     background-color: transparent;
+     position:absolute;
+     top: 0;
+     right: 0;
+     margin-right: 10px;
+} 
+.carddd{
+     
+      position: relative;
+     
+
+
+}
+.square{
+     height: 30vh;
+     width: 20vw;
+     border-radius: 10px; 
+     margin-left: 30px;  
+    
+}
+.txts{
+     margin-left: 40px;
+     /* margin-top: -20px; */
+     color: aliceblue;  
+}

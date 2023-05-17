@@ -1,0 +1,57 @@
+*{
+     background-color: darkslateblue;
+    
+
+}
+.top{
+     display: flex;
+     justify-content: space-around;
+     margin: 10px;
+     display: flex;
+     flex-wrap: wrap;
+     /* background: red; */
+     width:90vw;
+     transform: translate(8%,-400%);
+     color: :white;
+
+}
+.trending{
+     padding-left: 40px; 
+      color: white;
+     position: absolute;
+     left: 120px;
+     top: 20px;
+}
+
+.input {
+     color: white;
+     width: 90%;
+    height: 50px;
+     border: none;
+   margin-top: 8px;
+  outline:none;
+  font-size: 17px;
+  border-radius: 20px;
+     padding-bottom: 10px;
+}
+.bot{
+     display: flex;
+     /* justify-content: space-around; */
+     margin: 10px;
+     display: flex;
+     flex-wrap: wrap;
+     margin-left: 50px;
+     transform: translate(5%,-140%);
+
+}
+.Recommended{
+     padding-left: 40px; 
+     color: white;
+    position: absolute;
+    left: 120px;
+    top: 295px;
+    margin-left: 10px;
+}
+
+
+
