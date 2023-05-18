@@ -14,9 +14,11 @@ function App() {
 
   return (
     <>
+    
     <div><input type="search"  placeholder='🔎 Search for movies or TV Series' className='input' /></div>
       
       <Vertical/>
+      <div className="toop">
        <div className='trending'> <h2>Trending</h2> </div>
       <div className='top'>
          <div> <Rectangle
@@ -42,7 +44,7 @@ function App() {
           title={"Undiscovered Cities"}
         /></div>
         
-      </div>
+      </div></div>
       <div className='Recommended'><h2>Recommended for you</h2> </div>
       
       <div className='bot'>

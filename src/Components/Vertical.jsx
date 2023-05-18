@@ -1,17 +1,27 @@
 import React from 'react'
 import "./Vertical.css"
+import SideIcon from './sideIcon.jsx'
+import side from "../assets/icon.png"
+
 
 function Vertical() {
   return (
     <div>
       <div className='topp'>
-        youtube
+       <SideIcon 
+       ico = {side} link ="/"
+       />
+       <SideIcon 
+       ico = {side} link ="/blog"
+       />
+       <SideIcon 
+       ico = {side} link ="/"
+       />
+       <SideIcon 
+       ico = {side} link ="/blog"
+       />
+    
 
-        <ul>
-          <li><a href="/">Home</a> </li>
-          <li><a href="/blog">Blog</a> </li>
-          <li><a href="/contact">Contact</a> </li>
-        </ul>
       </div>
     </div>
   )

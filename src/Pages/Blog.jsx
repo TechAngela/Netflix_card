@@ -1,12 +1,13 @@
 import React from 'react'
 import Vertical from '../Components/Vertical'
+import MainLayout from '../MainLayout'
 
 function Blog() {
      return (
-          <div>
-               <Vertical></Vertical>
-               <div>Blog</div>
-          </div>
+          <MainLayout>
+               <div><p>this is blog page</p></div>
+               
+          </MainLayout>
      )
 }
 
